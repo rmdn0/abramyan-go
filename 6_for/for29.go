@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Print("N = ")
+	fmt.Scan(&n)
+	var a, b float64
+	fmt.Print("A = ")
+	fmt.Scan(&a)
+	fmt.Print("B = ")
+	fmt.Scan(&b)
+	length_of_a_part := (b - a) / float64(n)
+	fmt.Printf("\nH = %.5f\n", length_of_a_part)
+	for i := 0; i <= n; i++ {
+		fmt.Printf("%.5f\t", a)
+		a += length_of_a_part
+	}
+	fmt.Println()
+}
