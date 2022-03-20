@@ -8,35 +8,22 @@ func main() {
 	fmt.Scan(&n)
 
 	ar := make([]int, n, n)
-	var distinctElements []int
 	for i := 0; i < n; i++ {
 		fmt.Scan(&ar[i])
-		if !isNumberPresentInSlice(distinctElements, ar[i]) {
-			distinctElements = append(distinctElements, ar[i])
-		}
 	}
 
-	var amountOfDuplicates, maxAmountOfDuplicates int
-	for i := 0; i < len(distinctElements); i++ {
-		amountOfDuplicates = 0
+	var amount, maxAmount int
+	for i := 0; i < n; i++ {
+		amount = 0
 		for j := 0; j < n; j++ {
-			if distinctElements[i] == ar[j] {
-				amountOfDuplicates++
+			if ar[i] == ar[j] {
+				amount++
 			}
 		}
-		if maxAmountOfDuplicates < amountOfDuplicates {
-			maxAmountOfDuplicates = amountOfDuplicates
+		if maxAmount < amount {
+			maxAmount = amount
 		}
 	}
 
-	fmt.Println(maxAmountOfDuplicates)
-}
-
-func isNumberPresentInSlice(ar []int, x int) bool {
-	for i := 0; i < len(ar); i++ {
-		if ar[i] == x {
-			return true
-		}
-	}
-	return false
+	fmt.Println(maxAmount)
 }
