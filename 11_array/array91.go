@@ -33,7 +33,7 @@ func main() {
 	ar = tempAr
 
 	fmt.Println()
-	fmt.Println("New size: ", m)
+	fmt.Println("New size:", m)
 	for i := 0; i < m; i++ {
 		fmt.Printf("%.2f ", ar[i])
 	}
