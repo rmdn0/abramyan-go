@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "abramyan-go/pkg/tasks/array"
 
 func main() {
-	fmt.Println("Hello World")
+	array.Array123()
 }
