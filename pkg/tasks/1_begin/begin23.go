@@ -1,8 +1,8 @@
-package main
+package begin
 
 import "fmt"
 
-func main() {
+func Begin23() {
 	var a, b, c float32
 	fmt.Print("A = ")
 	fmt.Scan(&a)

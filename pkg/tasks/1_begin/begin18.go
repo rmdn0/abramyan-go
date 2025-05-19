@@ -1,11 +1,11 @@
-package main
+package begin
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Begin18() {
 	var a, b, c float64
 	fmt.Print("a = ")
 	fmt.Scan(&a)
@@ -17,5 +17,5 @@ func main() {
 	ac := math.Abs(c - a)
 	bc := math.Abs(c - b)
 
-	fmt.Printf("\nAC * BC = %.2f\n", ac * bc)
+	fmt.Printf("\nAC * BC = %.2f\n", ac*bc)
 }

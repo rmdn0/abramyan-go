@@ -1,11 +1,11 @@
-package main
+package begin
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Begin19() {
 	var x1, y1, x2, y2 float64
 	fmt.Print("x1 = ")
 	fmt.Scan(&x1)

@@ -1,8 +1,8 @@
-package main
+package begin
 
 import "fmt"
 
-func main() {
+func Begin7() {
 	const pi float32 = 3.14
 	var r, l, s float32
 	fmt.Println("Введите радиус круга:")

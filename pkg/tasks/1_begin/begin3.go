@@ -1,8 +1,8 @@
-package main
+package begin
 
 import "fmt"
 
-func main() {
+func Begin3() {
 	var a, b float32
 	fmt.Print("Введите стороны прямоугольника:\na = ")
 	fmt.Scan(&a)

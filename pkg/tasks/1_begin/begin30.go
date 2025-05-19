@@ -1,8 +1,8 @@
-package main
+package begin
 
 import "fmt"
 
-func main() {
+func Begin30() {
 	const pi float32 = 3.14
 	var alfa_radians float32
 	fmt.Print("Alfa in radians: ")

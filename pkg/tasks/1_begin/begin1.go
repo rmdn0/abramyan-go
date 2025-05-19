@@ -1,10 +1,5 @@
-package main
+package begin
 
-import "fmt"
-
-func main() {
-	var a float32
-	fmt.Print("Введите сторону квадрата:\na = ")
-	fmt.Scan(&a)
-	fmt.Println("Периметр квадрата со стороной a:\nP =", fmt.Sprintf("%.2f", 4 * a))
+func Begin1(a float64) float64 {
+	return 4 * a
 }

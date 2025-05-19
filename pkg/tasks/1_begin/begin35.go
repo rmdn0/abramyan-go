@@ -1,8 +1,8 @@
-package main
+package begin
 
 import "fmt"
 
-func main() {
+func Begin35() {
 	var t1, t2, u, v float32
 	fmt.Print("V = ")
 	fmt.Scan(&v)
@@ -12,6 +12,6 @@ func main() {
 	fmt.Scan(&t1)
 	fmt.Print("T2 = ")
 	fmt.Scan(&t2)
-	s := v * t1 + (v - u) * t2
+	s := v*t1 + (v-u)*t2
 	fmt.Printf("\nS = %.2f\n", s)
 }

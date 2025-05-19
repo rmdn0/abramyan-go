@@ -1,9 +1,9 @@
-package main
+package begin
 
 import "fmt"
 import "math"
 
-func main() {
+func Begin5() {
 	var a float32
 	fmt.Print("Введите ребро куба:\na = ")
 	fmt.Scan(&a)

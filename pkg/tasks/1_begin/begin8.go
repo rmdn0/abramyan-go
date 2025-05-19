@@ -1,8 +1,8 @@
-package main
+package begin
 
 import "fmt"
 
-func main() {
+func Begin8() {
 	var a, b float32
 	fmt.Println("Введите два числа:")
 	fmt.Print("a = ")
@@ -10,5 +10,5 @@ func main() {
 	fmt.Print("b = ")
 	fmt.Scan(&b)
 	fmt.Println("Среднее арифметическое введенных чисел:")
-	fmt.Printf("%.2f\n", (a + b) / 2)
+	fmt.Printf("%.2f\n", (a+b)/2)
 }

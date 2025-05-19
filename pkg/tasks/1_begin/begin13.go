@@ -1,11 +1,11 @@
-package main
+package begin
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Begin13() {
 	const pi float64 = 3.14
 	var r1, r2 float64
 	fmt.Print("R1 = ")

@@ -1,8 +1,8 @@
-package main
+package begin
 
 import "fmt"
 
-func main() {
+func Begin33() {
 	var x, y, a float32
 	fmt.Print("X = ")
 	fmt.Scan(&x)
@@ -12,5 +12,5 @@ func main() {
 	fmt.Scan(&y)
 	cost := a / x
 	fmt.Printf("\nЦена за 1 кг.: %.2f\n", cost)
-	fmt.Printf("Цена за Y кг.: %.2f\n", cost * y)
+	fmt.Printf("Цена за Y кг.: %.2f\n", cost*y)
 }

@@ -1,11 +1,11 @@
-package main
+package begin
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Begin21() {
 	var x1, x2, x3, y1, y2, y3 float64
 	fmt.Print("x1 = ")
 	fmt.Scan(&x1)
@@ -29,10 +29,10 @@ func main() {
 	p := (a + b + c) / 2
 	s := math.Sqrt(p * (p - a) * (p - b) * (p - c))
 
-	fmt.Printf("\nP = %.2f\n", p * 2)
+	fmt.Printf("\nP = %.2f\n", p*2)
 	fmt.Printf("S = %.2f\n", s)
 }
 
 func distance(x1, y1, x2, y2 float64) float64 {
-	return math.Sqrt(math.Pow(x2 - x1, 2) + math.Pow(y2 - y1, 2))
+	return math.Sqrt(math.Pow(x2-x1, 2) + math.Pow(y2-y1, 2))
 }

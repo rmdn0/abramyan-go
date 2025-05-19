@@ -1,9 +1,9 @@
-package main
+package begin
 
 import "fmt"
 import "math"
 
-func main() {
+func Begin15() {
 	const pi float64 = 3.14
 	var s float64
 	fmt.Print("S = ")

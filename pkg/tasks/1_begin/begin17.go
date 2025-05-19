@@ -1,9 +1,9 @@
-package main
+package begin
 
 import "fmt"
 import "math"
 
-func main() {
+func Begin17() {
 	var a, b, c float64
 	fmt.Print("a = ")
 	fmt.Scan(&a)
@@ -17,5 +17,5 @@ func main() {
 
 	fmt.Printf("\nAC = %.2f\n", ac)
 	fmt.Printf("BC = %.2f\n", bc)
-	fmt.Printf("AC + BC = %.2f\n", ac + bc)
+	fmt.Printf("AC + BC = %.2f\n", ac+bc)
 }
